@@ -1,0 +1,64 @@
+baseurl = ""
+title = "OpenEMR"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "John B. Williams"
+disqusShortname = "openemr"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[Author]
+    name = "John Williams"
+    profile = ""
+
+[Taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[Params]
+    intro = true
+    headline = "OpenEMR Blog"
+    description = "Certified Electronic Medical Record"
+    github = "https://github.com/openemr"
+    gitlab = ""
+    linkedin = ""
+    gplus = ""
+    twitter = "https://twitter.com/openemr"
+    stackoverflow = ""
+    email = "john.b.williams@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = false
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
+    
+ [[menu.main]]
+    name = "Web"
+    url = "http://www.open-emr.org/"
+    weight = 4   
+    
+    
+    
+    
+    
