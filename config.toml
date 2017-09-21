@@ -1,4 +1,4 @@
-baseurl = "https://painter-resource-65644.netlify.com"  
+baseurl = "/"  
 title = "OpenEMR"
 theme = "ghostwriter"
 languageCode = "en-us"
