@@ -1,51 +1,69 @@
 ---
-title: OpenEMR Cloud Service
+title: OpenEMR Announces Initial Availability of OpenEMR Cloud on AWS
 author: Matthew Vita
 date: '2017-08-15'
 slug: openemr-cloud-services
-categories: []
-tags: []
+categories: [cloud]
+tags: [AWS]
 ---
 
 
 <center>![](/oemr_aws.png)</center>
 
-[OpenEMR](http://www.open-emr.org), the most popular open source electronic health record (EHR) and medical practice management solution, upgraded their cloud-services capability with the latest 5.0.0.4 release. OpenEMR can now be operated as an out of the box cloud-service solution using the Amazon Web Services (AWS) platform. With a few simple steps, end users can get their OpenEMR on the cloud and take advantage of all the benefits that the cloud provides.
+OpenEMR Cloud, a cloud service version of OpenEMR - the most popular open source electronic health record (EHR) and medical practice management solution, is available in the 5.0.0.4 release of OpenEMR.  OpenEMR has partnered with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR Cloud to healthcare provider practices and institutions throughout the world. In a few simple steps, healthcare providers can have enjoy the immediate benefits of both OpenEMR and cloud services by deploying OpenEMR Cloud.
 
-Cloud technologies have been a staple in technology and business strategies over the last decade, and the healthcare industry is no exception to this trend. As web platform, OpenEMR is well suited for use as a cloud-services application. To date there has been no out of the box OpenEMR cloud package that takes full advantage of everything that cloud-services has to offer. Some benefits of cloud-services include:
+Cloud technologies have become a staple in technology and business over the past decade, and the healthcare industry is no exception. As a web platform, OpenEMR makes a seamless transition to the cloud, enabling many benefits including:
 
-#### Automatic scaling of computational resources
+#### Automatic Scaling of Computational Resources
 
-The computational resources such as servers, memory, bandwidth, and storage automatically scale depending on demand. At times of heavy OpenEMR use, for example during peak clinic hours, more resources are automatically dedicated to ensure optimal performance of OpenEMR at all times. And at times of low OpenEMR use, such as when the clinic is closed, computational resources are then automatically decreased in order to minimize costs.
+Computational resources such as servers, memory, bandwidth, and storage automatically scale based on demand. During peak clinic hours, more computational resources are automatically dedicated to ensure optimal performance of OpenEMR Cloud. During non-peak hours, computational resources are automatically decreased, resulting in minimized costs.
 
 <center>![](/openemrCloud.png)</center>
 
-#### Cutting-edge network security 
+#### Cutting-edge Network Security 
 
-The security measures leverage the Amazon Web Services, which include both superior physical, network, and software security.
+Superior information security, include physical, network, and software security, is designed into OpenEMR and AWS services, offloading significant patient privacy and security demands on healthcare providers. OpenEMR Cloud is fully compliant with HIPAA Privacy and Security Rules.
 
-#### Zero hardware maintenance
+#### Zero On-Site Hardare and Software
 
-OpenEMR is on the cloud and uses hardware provided by Amazon Web Services, so there is no on site server hardware required.
+OpenEMR Cloud runs hardware and software provided by OpenEMR and Amazon Web Services; no on-site softar, servers & related equipment is required.  
 
-#### Easy software deployments
+#### Easy Deployment
 
-With only a few simple steps, including specification of OpenEMR's [CloudFormation template](https://github.com/openemr/openemr-devops/blob/master/fullstack/assets/OpenEMR.json), users can have a cloud optimized solution for OpenEMR up and running in the AWS cloud. If customizations are needed, users can test and deploy the changes with ease.
+With only a few simple steps, including specification of OpenEMR's [CloudFormation template](https://github.com/openemr/openemr-devops/blob/master/fullstack/assets/OpenEMR.json), users can "spin up" their own OpenEMR Cloud instance. Customizations can be tested and deployed with ease.
 
-#### Robust backup and recovery solutions
+#### Robust Backup and Recovery Solutions
 
-Automated backups, disaster recovery, and server redundancy are commonplace on the cloud and can be fine tuned to suit each clinic's specific needs.
+Automated backups, disaster recovery, and hardware redundancy are automatic in OpenEMR Cloud, fine tuned for clinic and institutional needs.
 
-Currently OpenEMR users run the software on custom physical servers or select a professional vendor who provides a custom cloud or managed on-site solution. "This new cloud solution provides a modern option for users looking to leverage the cloud on their own terms, with a limited maintenance burden and low cost", says Matthew Vita, an OpenEMR administrator.
+Before OpenEMR Cloud,  OpenEMR users deployed software on  physical servers or contracted a professional vendor to provide a custom cloud or managed on-site solution. "OpenEMR Cloud provides a modern option for users looking to leverage the cloud on their own terms, with a limited maintenance burden and low cost", says Matthew Vita, an OpenEMR administrator.
 
-"The [OpenEMR] system is a natural fit for the cloud", notes Dr. Andre Millet, a Brazilian physician and OpenEMR contributor. "Setting up an EMR for hospital use should be as easy as signing up for a Platform as a Service (PaaS) solution. We are reducing the distance between the clinician and technology, providing tools that diminish repetitive tasks and bureaucratic procedures, allowing the provider more time for applying what he or she excels at", says Millet. He believes that lowering the barriers and cost for EMR deployments will encourage more utilization, especially in modern areas of healthcare such as Telemedicine, Practice Analytics and Clinical Intelligence. During the testing phase, Millet was impressed with the ease of the initial setup and the ability to optionally change the source code that almost instantly is reflected in his private cloud, something that non-open source EMR systems can't support because the code is hidden from the user as a business strategy.
+"OpenEMR is a natural fit for the cloud", notes Dr. Andre Millet, a Brazilian physician and OpenEMR contributor. "With OpenEMR Cloud, establishing  a hospital EHR is only a few simple steps. We are reducing the distance between clinician and technology, providing tools that diminish repetitive tasks and bureaucratic procedures, allowing more time for poviders to excel at what they does best", says Millet. He believes that lowering the barriers for EHR deployment will encourage more utilization, especially in modern areas of healthcare such as telemedicine, practice analytics and clinical intelligence. During implementation testing, Millet was impressed with the ease of setup and ability to adapt OpenEMR Cloud functionality through source code changes instantly reflected in OpenEMR Cloud instances.
 
-OpenEMR on the cloud simplifies OpenEMR management and provides peace of mind. "An on-premise EMR represents unpredictable, front-loaded capital expenses -- initial server purchase and deployment, on-going warranties, parts replacement, and physical security, often compounded by untested backup and restore protocols", says Asher Densmore-Lynn, an OpenEMR contributor and cloud architect. "Platform as a Service allows predictable capital expenses spread out over the course of the solution, with the cloud's smooth scalability as workloads increase over time." He adds that institutions using the cloud see more cost savings and benefits from not having to hire in-house expertise, especially in areas such as initial systems setup, disaster recovery, and hardware scaling. "All of these issues become manageable, predictable, and testable with the cloud", Densmore-Lynn notes.
+OpenEMR Cloud simplifies OpenEMR management and provides peace of mind. "An on-premise EHR represents unpredictable, front-loaded capital expenditures. Initial server purchase and deployment, on-going warranties, parts replacement, and physical security, are compounded by often-overlooked backup and restore protocols", says Asher Densmore-Lynn, an OpenEMR contributor and cloud architect. The financial benefit of OpenEMR Cloud is significant, transforming capital expenditures into lower equivalent operating expense, enabled by smooth scalability as workloads increase & decrease over time." He adds that clinics and institutions achieve additional operating savings through reduction of in-house expertise in initial systems setup, disaster recovery, and hardware scaling. "All of tasks become more manageable, predictable, and testable with OpenEMR cloud", Densmore-Lynn notes.
 
-OpenEMR is [ONC Certified as a Complete EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf) and supports a broad feature set including patient demographics, records, appointments, prescriptions, billing, reports, clinical decision support, and lab integration. The out of the box OpenEMR cloud solution is designed to be compliant with The Health Insurance Portability and Accountability Act (HIPAA) and The Health Information Technology for Economic and Clinical Health Act (HITECH) for users in the United States. Once live, users can work with Amazon Web Services (AWS) to sign a Business Associate Agreement (BAA) in order to be compliant with HIPAA, HITECH, and ONC Meaningful Use Stage 2.
+OpenEMR is [ONC Certified as a Complete EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf) supporting a broad feature set including patient demographics, records, appointments, prescriptions, billing, reports, clinical decision support, and lab integration. For United States customers, OpenEMR Cloud is designed for HIPAA & HITECH compliance. AWS performs the HIPAA Business Associate role for healthcare providers using OpenEMR Cloud. 
 
-"We want to ensure that the cost is reasonable and in proportion to an institution's EMR utilization", notes Daniel Ehrlich, an OpenEMR contributor and cloud solutions engineer. He notes that low AWS fees for US and non-US institutions are a feature of this cloud solution. However, enormous data sets or enhanced redundancy needs will have a higher, if still proportionate and predictable, cost. This cloud solution was put together by a passionate development team within the greater OpenEMR community. Although cost effectiveness was a large factor, Amazon Cloud also appealed to the team from a technology perspective with very robust and easy to use Application Programming Interfaces (API) and networking concepts that are familiar to IT professionals. This new OpenEMR cloud solution can be found on [GitHub](https://github.com/openemr/openemr-devops/tree/master/fullstack).
+"We want to ensure that cost is reasonable and proportional to an institution's EHR utilization", notes Daniel Ehrlich, an OpenEMR contributor and cloud solutions engineer. He notes that lower capital and operating expenses for clinics and institutions are a differentiating feature of OpenEMR Cloud.  
+
+OpenEMR Cloud is developed and maintained by a passionate team within the OpenEMR Community. The Community's choice to partner with industry leading AWS is a testament to AWS's leadership in cloud technology and total cost of ownership of cloud services.  To get started with OpenEMR Cloud, please visit the [Setup Guide](https://github.com/openemr/openemr-devops/tree/master/fullstack).
 
 #### About OpenEMR
 
-[OpenEMR](http://www.open-emr.org) is an electronic health record (EHR) system that was originally developed by physicians starting in 2002 to help them run their practices. As an open source project, it is maintained and supported by a vibrant community of volunteers and professionals that includes several hundred contributors and is supported by more than 40 companies. OpenEMR is [ONC Certified as a Complete EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf) and it is recognized as the most popular open-source electronic health records and medical practice management solution in the world. OpenEMR is downloaded more than 6,000 times per month, and it is estimated that it is used by more than 100,000 medical providers serving more than 200 million patients. OpenEMR has been translated into 33 languages and is used by facilities in more than 100 countries across the globe. Open source software has changed the world for the better and OpenEMR is a leader in healthcare open source software. Costly proprietary EMRs are no longer the only option. For more information please visit the [OpenEMR web site](http://www.open-emr.org).
+[OpenEMR](http://www.open-emr.org), the most popular open source electronic health record (EHR) and medical practice management solution,  was originally developed in 2002 by a group of physicians to run their healthcare practices. As an open source project, OpenEMR is maintained and supported by a vibrant community of several hundred volunteers and more than 40 companies. OpenEMR is [Certified as a Complete EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf) by the United States' Department of Health and Human Services. Downloaded more than 6,000 times per month, the OpenEMR user base is estimated to be greater that 100,000 medical providers serving more than 200 million patients. OpenEMR has been translated into 33 languages and is used by facilities in more than 100 countries. A leading operator of the open-source software business model, OpenEMR has changed the world for the better. For more information please visit the [OpenEMR web site](http://www.open-emr.org).
+
+#### About OpenEMR Community
+
+
+
+
+
+#### About Amazon Web Services
+
+For 11 years, Amazon Web Services has been the world's most comprehensive and broadly adopted cloud platform. AWS offers over 90 fully featured services for compute, storage, networking, database, analytics, application services, deployment, management, developer, mobile, Internet of Things (IoT), Artificial Intelligence (AI), security, hybrid, and enterprise applications, from 44 Availability Zones (AZs) across 16 geographic regions in the U.S., Australia, Brazil, Canada, China, Germany, India, Ireland, Japan, Korea, Singapore, and the UK. AWS services are trusted by millions of active customers around the world -- including the fastest growing startups, largest enterprises, and leading government agencies -- to power their infrastructure, make them more agile, and lower costs. To learn more about AWS, visit https://aws.amazon.com.
+
+#### About Amazon
+
+Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Fire tablets, Fire TV, Amazon Echo, and Alexa are some of the products and services pioneered by Amazon. For more information, visit www.amazon.com/about and follow @AmazonNews.
+
+
