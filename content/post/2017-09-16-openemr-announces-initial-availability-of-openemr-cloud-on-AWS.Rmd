@@ -22,7 +22,7 @@ Computational resources such as servers, memory, bandwidth, and storage automati
 
 #### Cutting-edge Information Security 
 
-Superior information security, include physical, network, and software security, is designed into OpenEMR and AWS, offloading significant privacy and security demands on healthcare providers. OpenEMR Cloud is fully compliant with HIPPA Privacy and Security Rules.
+Superior information security, include physical, network, and software security, is designed into OpenEMR and AWS, offloading significant privacy and security demands on healthcare providers. OpenEMR Cloud is fully compliant with HIPAA Privacy and Security Rules.
 
 #### Zero On-Site Hardare and Software
 
