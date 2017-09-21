@@ -1,4 +1,4 @@
-baseurl = "/"  
+baseurl = "http://www.openemr.blog/"  
 title = "OpenEMR"
 theme = "ghostwriter"
 languageCode = "en-us"
