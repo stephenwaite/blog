@@ -45,11 +45,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 1
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
-    weight = 3
-
-[[menu.main]]
     name = "About"
     url = "/page/about/"
     weight = 2
@@ -57,7 +52,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
  [[menu.main]]
     name = "Web"
     url = "http://www.open-emr.org/"
-    weight = 4   
+    weight = 3   
     
     
     
