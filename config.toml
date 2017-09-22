@@ -4,7 +4,7 @@ theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "John B. Williams"
 disqusShortname = "openemr"
-googleAnalytics = ""
+googleAnalytics = "UA-8316288-11"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Author]
