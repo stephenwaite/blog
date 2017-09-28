@@ -33,7 +33,7 @@ OpenEMR Cloud runs hardware and software provided by OpenEMR and Amazon Web Serv
 
 #### Easy Deployment
 
-With only a few simple steps, including specification of OpenEMR's [CloudFormation template](https://github.com/openemr/openemr-devops/blob/master/fullstack/assets/OpenEMR.json), healthcare providers "spin up" their own OpenEMR Cloud instance. Customizations are tested and deployed with ease, with OpenEMR Cloud's continuous deployment model.
+With only a few simple steps, including specification of OpenEMR's [CloudFormation template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json), healthcare providers "spin up" their own OpenEMR Cloud instance. Customizations are tested and deployed with ease, with OpenEMR Cloud's continuous deployment model.
 
 #### Robust Backup and Recovery Solutions
 
@@ -47,7 +47,7 @@ OpenEMR Cloud simplifies OpenEMR management and provides peace of mind. "An on-p
 
 "We want to ensure that cost is reasonable and proportional to an institution's EHR utilization", notes Daniel Ehrlich, an OpenEMR contributor and cloud solutions engineer. He notes that lower capital and operating expense for clinics and institutions are a differentiating feature of OpenEMR Cloud.  
 
-The OpenEMR Community's choice to partner with industry leading AWS is a testament to AWS leadership in cloud technology and total cost of application ownership.  To get started with OpenEMR Cloud, please visit the [Setup Guide](https://github.com/openemr/openemr-devops/tree/master/fullstack).
+The OpenEMR Community's choice to partner with industry leading AWS is a testament to AWS leadership in cloud technology and total cost of application ownership.  To get started with OpenEMR Cloud, please visit the [Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack).
 
 #### About OpenEMR
 
