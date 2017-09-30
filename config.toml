@@ -2,13 +2,13 @@ baseurl = "http://www.openemr.blog/"
 title = "OpenEMR"
 theme = "ghostwriter"
 languageCode = "en-us"
-copyright = "OEMR"
+copyright = "John B. Williams"
 disqusShortname = "openemr"
 googleAnalytics = "UA-8316288-11"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Author]
-    name = "John Williams"
+    name = "OEMR"
     profile = ""
 
 [Taxonomies]
