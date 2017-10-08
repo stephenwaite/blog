@@ -1,6 +1,6 @@
 baseurl = "http://www.openemr.blog/"  
 title = "OpenEMR"
-theme = "ghostwriter"
+theme = "openemr"
 languageCode = "en-us"
 copyright = "John B. Williams"
 disqusShortname = "openemr"
