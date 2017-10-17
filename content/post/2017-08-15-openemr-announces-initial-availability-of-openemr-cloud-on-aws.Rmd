@@ -47,7 +47,7 @@ OpenEMR Cloud simplifies OpenEMR management and provides peace of mind. "An on-p
 
 "We want to ensure that cost is reasonable and proportional to an institution's EHR utilization", notes Daniel Ehrlich, an OpenEMR contributor and cloud solutions engineer. He notes that lower capital and operating expense for clinics and institutions are a differentiating feature of OpenEMR Cloud.  
 
-OpenEMR Cloud is designed for 1-click deployment by provider or institution staff.  OpenEMR software is configurable with an array clinical options, either by practice IT staff or certified, professional support vendors.  OpenEMR's software license (GNU Public License) has fostered a vast array of clinical capabilities including a modern user interface. Custom features are easily developed and implemented to meet the needs and demands of practices and institutions.
+OpenEMR Cloud is designed for 1-click deployment by provider or institution staff.  OpenEMR software is configurable with an array of clinical options, either by practice IT staff or certified, professional support vendors.  OpenEMR's software model (GNU Public License) has fostered a vast array of clinical capabilities including a modern user interface. Custom features are easily developed and implemented to meet the needs and demands of practices and institutions.
 
 OpenEMR Full Stack is 100% HIPAA compliant for covered entities,  requiring only a few extra clicks during deployment.  Covered entities are assured of compliance by OpenEMR's federally certified software, HIPAA compliant cloud services, and AWS's Business Associate services. 
 
