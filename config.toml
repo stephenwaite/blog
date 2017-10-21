@@ -8,7 +8,7 @@ googleAnalytics = "UA-8316288-11"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Author]
-    name = "John Williams"
+    name = "OEMR"
     profile = ""
 
 [Taxonomies]
@@ -22,15 +22,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     github = "https://github.com/openemr"
     gitlab = ""
     linkedin = ""
-    gplus = ""
+    gplus = "https://plus.google.com/106799034872780958301"
     twitter = "https://twitter.com/openemr"
     facebook = "https://www.facebook.com/OpenEMR-181315115284266"
     stackoverflow = ""
-    email = "john.b.williams@gmail.com"
+    email = "blog@oemr.org"
     opengraph = true
     shareTwitter = true
     shareFacebook = true
-    shareGooglePlus = false
+    shareGooglePlus = true
     shareLinkedIn = true
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
