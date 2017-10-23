@@ -4,7 +4,10 @@ alias: 2017/08/15/2017-08-15-openemr-announces-initial-availability-of-openemr-c
 author: Matthew Vita
 date: '2017-08-15'
 slug: openemr-available-on-aws
-summary: OpenEMR has joined with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR Cloud to healthcare provider practices and institutions throughout the world.
+summary: >
+  OpenEMR has joined with industry leading Amazon Web Services (AWS) to
+  implement and deliver OpenEMR Cloud to healthcare provider practices and
+  institutions throughout the world.
 images:
   - /images/cloud-computing.png
 coverImage: /images/cloud-computing.png
@@ -19,10 +22,10 @@ tags:
 [Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack)  
 [CloudFormation Template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json)
 
-OpenEMR Cloud Full Stack, a cloud service version of OpenEMR - the most popular 
+OpenEMR Cloud Full Stack, a cloud service version of [OpenEMR](http://open-emr.org) - the most popular 
 open source electronic health record (EHR) and medical practice management 
 solution, is available for the 5.0.0.5 release of OpenEMR. OpenEMR has joined 
-with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR
+with industry leading [Amazon Web Services](https://aws.amazon.com) (AWS) to implement and deliver OpenEMR
 Cloud to healthcare provider practices and institutions throughout the world. 
 <img src="/images/OpenEMR_Cloud.png" height="225" class="floating float-right">
 In a few simple steps, healthcare providers can leverage the benefits of OpenEMR

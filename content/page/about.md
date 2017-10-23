@@ -18,7 +18,7 @@ To stay connected, subscribe to the [RSS feed](/index.xml) of this blog posts,
 or follow us on [Twitter @openemr](https://twitter.com/openemr). You are welcome
 to watch our software development and contribute to our project on 
 [Github @openemr](https://github.com/openemr). For more information about
-OpenEMR, please visit our home page at https://www.open-emr.org.
+OpenEMR, please visit our home page at <a href="http://www.open-emr.org" target="_blank">http://www.open-emr.org</a>
 
 ![](/images/450px-Onc-2017.png)
 
