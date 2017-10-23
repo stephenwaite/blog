@@ -47,3 +47,5 @@ menu:
       url: https://community.open-emr.org
     - name: Chat
       url: https://chat.open-emr.org
+    - name: open-emr.org
+      url: http://open-emr.org
