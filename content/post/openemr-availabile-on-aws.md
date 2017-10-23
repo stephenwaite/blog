@@ -24,8 +24,8 @@ open source electronic health record (EHR) and medical practice management
 solution, is available for the 5.0.0.5 release of OpenEMR. OpenEMR has joined 
 with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR
 Cloud to healthcare provider practices and institutions throughout the world. 
-<img src="/images/OpenEMR_Cloud.png" height="250" class="float-right"> In
-a few simple steps, healthcare providers can leverage the benefits of OpenEM
+<img src="/images/OpenEMR_Cloud.png" height="225" class="floating float-right">
+In a few simple steps, healthcare providers can leverage the benefits of OpenEMR
 and AWS by deploying OpenEMR Cloud Full Stack.
 
 Cloud technologies have become a staple in technology and business over the past

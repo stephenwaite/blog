@@ -1,6 +1,6 @@
 ---
 title: OpenEMR and the 2017 VCU HealthHacks
-author: Matthew Vita
+author: Robert Down
 date: '2017-10-19'
 slug: healthhacks-at-vcu-2017
 summary: >
