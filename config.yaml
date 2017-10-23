@@ -1,0 +1,49 @@
+title: OpenEMR
+baseurl: http://www.openemr.blog
+theme: openemr
+languageCode: en-us
+author:
+  name: OpenEMR
+copyright: OEMR
+disqusShortname: openemr
+googleAnalytics: UA-8316288-11
+ignoreFiles:
+  - \\.Rmd$
+  - \\.Rmarkdown$
+  - _files%
+  - _cache$
+taxonomies:
+  tag: tags
+  category: categories
+
+params:
+  coverImageStyle: standard
+  intro: "true"
+  headline: OpenEMR Blog
+  description: Open source electronic medical record software
+  github: "https://github.com/openemr"
+  linkedin: ""
+  gplus: https://plus.google.com/106799034872780958301
+  twitter: https://twitter.com/openemr
+  facebook: https://www.facebook.com/OpenEMR-181315115284266
+  stackoverflow: ""
+  email: blog@oemr.org
+  opengraph: true
+  shareTwitter: true
+  shareFacebook: true
+  shareGooglePlus: true
+  shareLinkedIn: true
+  dateFormat: Mon, Jan 2, 2006
+  highlightJsUrl: ""
+  highlightJsLocalUrl: ""
+permainks:
+  post: /:filename/
+
+menu:
+  main:
+    - name: Docs
+      url: http://open-emr.org/wiki/
+    - name: Community
+      url: https://community.open-emr.org
+    - name: Chat
+      url: https://chat.open-emr.org
