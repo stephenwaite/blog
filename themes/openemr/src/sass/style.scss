@@ -1,0 +1,263 @@
+/**
+ *
+ */
+
+@import "imports";
+
+nav.main-header {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-dark;
+    @extend .fixed-top;
+
+    background-color: rgba(theme-color("primary"), 0.90);
+
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        #navbarSupportedContent {
+            @extend .collapse;
+            @extend .navbar-collapse;
+            @extend .justify-content-end;
+
+            ul {
+                @extend .navbar-nav;
+
+                li {
+                    @extend .nav-item;
+
+                    a {
+                        @extend .nav-link;
+                        color: $white !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-jumbo {
+    @extend .container-fluid;
+    padding-top: 99px;
+    padding-bottom: 40px;
+    background-color: theme-color('primary');
+
+    img {
+        @extend .mx-auto;
+        @extend .d-block;
+        @extend .img-fluid;
+    }
+}
+
+main.body {
+    @extend .container-fluid;
+
+    margin-top: 93px !important;
+
+    .post-list {
+        @extend .list-unstyled;
+    }
+}
+
+.index-list {
+    @extend .pt-1;
+}
+
+.post-stub {
+    margin-bottom: 35px;
+}
+
+.post-title {
+    @extend .display-4;
+}
+
+article.post-container {
+    @include make-col(9);
+}
+
+section.sidebar {
+    @include make-col(3);
+}
+
+footer.site {
+    @extend .container-fluid;
+    
+    background-color: rgba($gray-200, 1);
+    color: $gray-900;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include media-breakpoint-down(sm) {
+        .col-logo {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .col-logo {
+            @include make-col(3);
+        }
+    }
+
+    a {
+        &:hover {
+            color: $red;
+            text-decoration: none;
+        }
+    }
+
+    ul li ul {
+        list-style: none;
+    }
+}
+
+footer.site {
+    a {
+        color: color("primary");
+    }
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: Aleo, 'Times New Roman', Times, serif;
+}
+
+@include media-breakpoint-down(lg) {
+    .display-4 {
+        font-size: 2rem;
+    }
+}
+
+@include media-breakpoint-only(sm) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+}
+
+a {
+    color: $link-color;
+}
+
+.post-stub {
+    h5 {
+        a {
+            color: $link-color;
+            font-weight: 300;
+        }
+    }
+
+    .post-stub-date, .reading-time {
+        font-size: $font-size-sm;
+    }
+    
+}
+
+.post-header {
+    @include center-column();
+    @extend .text-center;
+    @extend .my-5;
+}
+
+.center-row {
+    @include make-row();
+    @extend .justify-content-center;
+}
+
+.cover {
+    @extend .align-items-center;
+
+    @include media-breakpoint-down(md) {
+        margin-bottom: 0 !important;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 525px;
+    }
+    @extend .mb-5;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    position: relative;
+
+    header.post-header {
+        @include center-column();
+        @extend .justify-content-start;
+        @extend .align-middle;
+        z-index: 2;
+
+        h1 {
+            @include media-breakpoint-down(md) {
+                padding: .75rem .5rem !important;
+            }
+            @extend .p-5;
+            @extend .d-block;
+            text-align: left;
+            background: rgba(theme-color-level("primary", 5), 0.75);
+        }
+    }
+
+    & &__image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 525px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+img.featured {
+    @extend .img-fluid;
+}
+
+.post-content {
+    @include center-column();
+
+    font-size: 18px;
+
+    img:not(.floating) {
+        @extend .img-fluid;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @extend .pt-3;
+        @extend .mb-3;
+        font-weight: 300;
+        color: #000;
+        
+        &::after {
+            background-color: $red;
+            bottom: 0;
+            text-align: left;
+            content: '';
+            display: block;
+            height: 4px;
+            left: 0;
+            top: 5px;
+            position: relative;
+            width: 70px;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.8rem; }
+    h4 { font-size: 1.6rem; }
+    h5 { font-size: 1.4rem; }
+    h6 { font-size: 1.2rem; }
+}
+
+.post-footer {
+    @extend .col-6;
+    @extend .mb-5;
+}
