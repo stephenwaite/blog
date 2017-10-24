@@ -1,3 +1,4 @@
 [submodule "themes/openemr"]
 	path = themes/openemr
-	url = git@github.com:openemr/blog-theme.git
+	url = git@github.com:robertdown/blog-theme.git
+	branch = opengraph-improvements
