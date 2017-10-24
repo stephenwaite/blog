@@ -1,6 +1,8 @@
 ---
 title: OpenEMR and the 2017 VCU HealthHacks
-author: Robert Down
+author:
+    name: Robert Down
+    twitter: robertjdown
 date: '2017-10-19'
 slug: healthhacks-at-vcu-2017
 summary: >
@@ -9,7 +11,9 @@ summary: >
 images:
     - /images/healthhacks-vcu.jpg
 coverImage: /images/healthhacks-vcu.jpg
+# twitterImage: /images/healthhacks-vcu.jpg
 coverImageStyle: full
+twitterCardType: large
 featured: true
 ---
 

@@ -4,6 +4,7 @@ theme: openemr
 languageCode: en-us
 author:
   name: OpenEMR
+  twitter: openemr
 copyright: OEMR
 disqusShortname: openemr
 googleAnalytics: UA-8316288-11
@@ -17,14 +18,17 @@ taxonomies:
   category: categories
 
 params:
+  # Required theme-specific variables
+  twitterImage: /images/test.jpg
   coverImageStyle: standard
+  twitterCardType: summary
   intro: "true"
   headline: OpenEMR Blog
   description: Open source electronic medical record software
   github: "https://github.com/openemr"
   linkedin: ""
   gplus: https://plus.google.com/106799034872780958301
-  twitter: https://twitter.com/openemr
+  twitter: openemr
   facebook: https://www.facebook.com/OpenEMR-181315115284266
   stackoverflow: ""
   email: blog@oemr.org
