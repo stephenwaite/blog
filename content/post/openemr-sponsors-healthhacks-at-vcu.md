@@ -11,9 +11,7 @@ summary: >
 images:
     - /images/healthhacks-vcu.jpg
 coverImage: /images/healthhacks-vcu.jpg
-# twitterImage: /images/healthhacks-vcu.jpg
 coverImageStyle: full
-twitterCardType: large
 featured: true
 ---
 

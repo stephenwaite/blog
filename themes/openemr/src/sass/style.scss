@@ -217,6 +217,13 @@ img.featured {
     @extend .img-fluid;
 }
 
+.post-meta {
+    @include center-column();
+    @extend .mb-3;
+    @extend .text-muted;
+    font-size: $font-size-sm;
+}
+
 .post-content {
     @include center-column();
 
