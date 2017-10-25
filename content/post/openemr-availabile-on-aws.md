@@ -1,8 +1,9 @@
 ---
 title: OpenEMR Cloud Full Stack Now Available on AWS
-alias: 2017/08/15/2017-08-15-openemr-announces-initial-availability-of-openemr-cloud-on-aws/
 author:
   name: Matthew Vita
+aliases: 
+  - 2017/08/15/2017-08-15-openemr-announces-initial-availability-of-openemr-cloud-on-aws/
 date: '2017-08-15'
 slug: openemr-available-on-aws
 summary: >
