@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 .vscode
+**/node_modules
