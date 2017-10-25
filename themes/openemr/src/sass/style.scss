@@ -268,3 +268,7 @@ img.featured {
     @extend .col-6;
     @extend .mb-5;
 }
+
+.comments {
+    @include center-column();
+}
