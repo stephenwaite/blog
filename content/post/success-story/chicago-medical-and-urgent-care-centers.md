@@ -2,16 +2,9 @@
 title: Chicago Medical and Urgent Care Centers
 author:
   name: Matthew Vita
-aliases: 
-  - 2017/08/15/2017-08-15-openemr-announces-initial-availability-of-openemr-cloud-on-aws/
-date: '2017-08-15'
+  twitter: matthewvita
+date: '2017-07-01'
 slug: chicago-medical-and-urgent-care-centers
-summary: >
-  OpenEMR has joined with industry leading Amazon Web Services (AWS) to
-  implement and deliver OpenEMR Cloud to healthcare provider practices and
-  institutions throughout the world.
-images:
-  - /images/cloud-computing.png
 categories:
   - Success Stories
 ---
