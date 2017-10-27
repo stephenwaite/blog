@@ -1,18 +1,20 @@
 ---
-title: OpenEMR Cloud Full Stack Now Available on AWS
+title: OpenEMR Announces Initial Availability of OpenEMR Cloud on AWS
 author:
   name: Matthew Vita
+  twitter: matthewvita
 aliases: 
   - 2017/08/15/2017-08-15-openemr-announces-initial-availability-of-openemr-cloud-on-aws/
+  - openemr-available-on-aws
 date: '2017-08-15'
-slug: openemr-available-on-aws
+slug: openemr-announces-initial-availability-of-openemr-cloud-on-aws
 summary: >
   OpenEMR has joined with industry leading Amazon Web Services (AWS) to
   implement and deliver OpenEMR Cloud to healthcare provider practices and
   institutions throughout the world.
 images:
-  - /images/cloud-computing.png
-coverImage: /images/cloud-computing.png
+  - /images/OpenEMR_Cloud.png
+coverImage: /images/OpenEMR_Cloud.png
 featured: true
 categories:
   - Cloud
@@ -24,14 +26,14 @@ tags:
 [Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack)  
 [CloudFormation Template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json)
 
-OpenEMR Cloud Full Stack, a cloud service version of [OpenEMR](http://open-emr.org) - the most popular 
-open source electronic health record (EHR) and medical practice management 
-solution, is available for the 5.0.0.5 release of OpenEMR. OpenEMR has joined 
-with industry leading [Amazon Web Services](https://aws.amazon.com) (AWS) to implement and deliver OpenEMR
-Cloud to healthcare provider practices and institutions throughout the world. 
-<img src="/images/OpenEMR_Cloud.png" height="225" class="floating float-right">
-In a few simple steps, healthcare providers can leverage the benefits of OpenEMR
-and AWS by deploying OpenEMR Cloud Full Stack.
+OpenEMR Cloud Full Stack, a cloud service version of
+[OpenEMR](http://open-emr.org) - the most popular open source electronic health
+record (EHR) and medical practice management solution, is available for the
+5.0.0.5 release of OpenEMR. OpenEMR has joined with industry leading [Amazon Web
+Services](https://aws.amazon.com) (AWS) to implement and deliver OpenEMR Cloud
+to healthcare provider practices and institutions throughout the world. In a few
+simple steps, healthcare providers can leverage the benefits of OpenEMR and AWS
+by deploying OpenEMR Cloud Full Stack.
 
 Cloud technologies have become a staple in technology and business over the past
 decade, and the healthcare industry is no exception. As a web platform, OpenEMR
@@ -63,7 +65,8 @@ required.
 #### Easy Deployment
 
 With only a few simple steps, including specification of OpenEMR Cloud Full
-Stack's [CloudFormation template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json),
+Stack's [CloudFormation
+template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json),
 healthcare providers "spin up" their own full stack instance of OpenEMR in the
 cloud. Customizations are tested and deployed with ease, with OpenEMR Cloud's
 continuous deployment model.
@@ -80,22 +83,21 @@ leverage the cloud on their own terms, with limited maintenance burden and low
 cost", says Matthew Vita, an OpenEMR Administrator.
 
 "OpenEMR is a natural fit for the cloud", notes Dr. Andre Millet, Chief Medical
-Officer of OEMR. "With OpenEMR Cloud, establishing a hospital EHR takes only
-a few simple steps. We are reducing the distance between clinician and
-technology, providing tools that diminish repetitive tasks and bureaucratic
-procedures, allowing more time for providers to excel at what they do best",
-says Millet. He believes lowering barriers for EHR deployment encourages better
-utilization, especially in modern areas of healthcare such as telemedicine,
-practice analytics and clinical intelligence. During implementation testing,
-Millet was impressed with the ease of setup and adaption of OpenEMR
-functionality through source code changes instantly reflected in OpenEMR Cloud
-instances.
+Officer of OEMR. "With OpenEMR Cloud, establishing a hospital EHR takes only a
+few simple steps. We are reducing the distance between clinician and technology,
+providing tools that diminish repetitive tasks and bureaucratic procedures,
+allowing more time for providers to excel at what they do best", says Millet. He
+believes lowering barriers for EHR deployment encourages better utilization,
+especially in modern areas of healthcare such as telemedicine, practice
+analytics and clinical intelligence. During implementation testing, Millet was
+impressed with the ease of setup and adaption of OpenEMR functionality through
+source code changes instantly reflected in OpenEMR Cloud instances.
 
 OpenEMR Cloud simplifies OpenEMR management and provides peace of mind. "An
 on-premise EHR represents unpredictable, front-loaded capital expenditures.
 Initial server purchase and deployment, on-going warranties, parts replacement,
 and physical security, are compounded by often-overlooked backup and restore
-protocols", says Asher Densmore-Lynn, an OpenEMR contributor and cloud 
+protocols", says Asher Densmore-Lynn, an OpenEMR contributor and cloud
 architect. The financial benefit of OpenEMR Cloud is significant, transforming
 capital expenditures into lower equivalent operating expense. Operating expense
 is further reduced as computational resources are matched to time-varying
@@ -119,19 +121,20 @@ developed and implemented to meet the needs and demands of practices and
 institutions.
 
 OpenEMR Full Stack is 100% HIPAA compliant for covered entities,  requiring only
-a few extra clicks during deployment. Covered entities are assured of
-compliance by OpenEMR's federally certified software, HIPAA compliant cloud
-services, and AWS's Business Associate services. 
+a few extra clicks during deployment. Covered entities are assured of compliance
+by OpenEMR's federally certified software, HIPAA compliant cloud services, and
+AWS's Business Associate services. 
 
 
 The OpenEMR Community's choice of industry leading AWS is a testament to AWS
 leadership in cloud technology and total cost of application ownership. To get
-started with OpenEMR Cloud Full stack, please visit its
-[Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack).
+started with OpenEMR Cloud Full stack, please visit its [Setup
+Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack).
 
 #### About OpenEMR
 
-OpenEMR is [Certified as a Complete EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf)
+OpenEMR is [Certified as a Complete
+EHR](http://www.open-emr.org/wiki/images/0/04/OpenEMR_Complete_EHR_2014_Edition_Cert.pdf)
 by the United States' Department of Health and Human Services, supporting a
 broad feature set of patient demographics, records, appointments, prescriptions,
 billing, reports, clinical decision support, lab integration, analytics and
