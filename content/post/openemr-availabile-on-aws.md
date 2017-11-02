@@ -23,7 +23,7 @@ tags:
   - Cloud
 ---
 
-[Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack)  
+[Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack)
 [CloudFormation Template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json)
 
 OpenEMR Cloud Full Stack, a cloud service version of
@@ -49,7 +49,7 @@ resources are automatically relaxed, resulting in minimized costs.
 
 <center>![](/images/openemrCloud.png)</center>
 
-#### Cutting-edge Information Security 
+#### Cutting-edge Information Security
 
 Superior information security, include physical, network, and software security,
 is designed into OpenEMR and AWS, offloading significant privacy and security
@@ -60,7 +60,7 @@ Privacy and Security Rules.
 
 OpenEMR Cloud Full Stack runs hardware and software provided by OpenEMR and
 Amazon Web Services; no on-site software, servers nor related equipment are
-required. 
+required.
 
 #### Easy Deployment
 
@@ -110,7 +110,7 @@ Densmore-Lynn notes.
 "We want to ensure that cost is reasonable and proportional to an institution's
 EHR utilization", notes Daniel Ehrlich, an OpenEMR contributor and cloud
 solutions engineer. He notes that lower capital and operating expense for
-clinics and institutions are a differentiating feature of OpenEMR Cloud. 
+clinics and institutions are a differentiating feature of OpenEMR Cloud.
 
 OpenEMR Cloud is designed for 1-click deployment by provider or institution
 staff. OpenEMR software is configurable with an array of clinical options,
@@ -123,8 +123,7 @@ institutions.
 OpenEMR Full Stack is 100% HIPAA compliant for covered entities,  requiring only
 a few extra clicks during deployment. Covered entities are assured of compliance
 by OpenEMR's federally certified software, HIPAA compliant cloud services, and
-AWS's Business Associate services. 
-
+AWS's Business Associate services.
 
 The OpenEMR Community's choice of industry leading AWS is a testament to AWS
 leadership in cloud technology and total cost of application ownership. To get
