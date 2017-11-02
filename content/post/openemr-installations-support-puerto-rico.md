@@ -69,3 +69,10 @@ Support credentials, HITECH Compliance is proud to be a [Certified OpenEMR
 Professional Support
 Provider](http://open-emr.org/wiki/index.php/Professional_Support#HITECH_Compliance.)
 and Contributor.
+
+<small class="text-muted">[Cover photo ("Sailors treat a patient in casualty
+receiving aboard the Navy Hospital ship.")](https://flic.kr/p/G45hjM) by [Mass
+Communication Specialist 2nd Class Stephane
+Belcher/Released](https://www.flickr.com/photos/usnavy/) and used with
+permission as stated in the [Creative Commons license CC BY
+2.0](https://creativecommons.org/licenses/by/2.0/legalcode)</small>
