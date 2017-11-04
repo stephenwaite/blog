@@ -67,7 +67,7 @@ maintain all of the prestigious [American Health Information Managers
 Association's (AHIMA)](http://www.ahima.org/) Certified Healthcare Technical
 Support credentials, HITECH Compliance is proud to be a [Certified OpenEMR
 Professional Support
-Provider](http://open-emr.org/wiki/index.php/Professional_Support#HITECH_Compliance.)
+Provider](http://open-emr.org/wiki/index.php/Professional_Support#HITECH_Compliance)
 and Contributor.
 
 <small class="text-muted">[Cover photo ("Sailors treat a patient in casualty

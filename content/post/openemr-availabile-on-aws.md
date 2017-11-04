@@ -23,8 +23,8 @@ tags:
   - Cloud
 ---
 
-[Setup Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack)
-[CloudFormation Template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json)
+[Setup Guide](https://github.com/openemr/openemr-devops/tree/master/packages/full_stack#openemr-cloud-full-stack)
+[CloudFormation Template](https://github.com/openemr/openemr-devops/blob/master/packages/full_stack/assets/OpenEMR.json)
 
 OpenEMR Cloud Full Stack, a cloud service version of
 [OpenEMR](http://open-emr.org) - the most popular open source electronic health
@@ -66,7 +66,7 @@ required.
 
 With only a few simple steps, including specification of OpenEMR Cloud Full
 Stack's [CloudFormation
-template](https://github.com/openemr/openemr-devops/blob/master/stacks/AWS-full-stack/assets/OpenEMR.json),
+template](https://github.com/openemr/openemr-devops/blob/master/packages/full_stack/assets/OpenEMR.json),
 healthcare providers "spin up" their own full stack instance of OpenEMR in the
 cloud. Customizations are tested and deployed with ease, with OpenEMR Cloud's
 continuous deployment model.
@@ -128,7 +128,7 @@ AWS's Business Associate services.
 The OpenEMR Community's choice of industry leading AWS is a testament to AWS
 leadership in cloud technology and total cost of application ownership. To get
 started with OpenEMR Cloud Full stack, please visit its [Setup
-Guide](https://github.com/openemr/openemr-devops/tree/master/stacks/AWS-full-stack).
+Guide](https://github.com/openemr/openemr-devops/tree/master/packages/full_stack#openemr-cloud-full-stack).
 
 #### About OpenEMR
 
