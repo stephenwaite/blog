@@ -11,6 +11,10 @@ featured: true
 coverImageStyle: full
 ---
 
+#### *HI HN!!!*
+
+<a href="https://opencollective.com/openemr" class="btn btn-lg btn-primary" style="text-decoration: none;"><i class="fa fa-heart"></i>Donate on OpenCollective</a>
+
 As the most popular open source electronic health records and medical practice management solution, our community has many ambitious goals to meet the needs of our global user base. Some of these requests involve activities such as adding new clinical forms, improving documentation, and crafting a cutting edge, FHIR-ready, real-time inpatient management module. I’ll let you guess which one requires the most energy, time, and domain expertise :).
 
 Donations speed up and improve the outcome of such requests. It is not simply the case that donating funds to our volunteer developers will motivate us to move faster or produce better results. We are already doing that and are highly motivated individuals. We see the tangible difference we are making in the world (~40K doctors using the system, a very vibrant and kind hearted community). We also know that we are using our software skills to help healthcare facilities in low resource areas - areas that could probably never afford to leave paper health records without us. With this said, we are very much in need of sustainable funding to consistently enable the costs of our work each month.
