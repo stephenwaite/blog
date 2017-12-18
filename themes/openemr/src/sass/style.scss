@@ -276,3 +276,10 @@ img.featured {
 .comments {
     @include center-column();
 }
+
+.btn {
+    .fa {
+        padding-right: 1rem;
+        // display: inline-block;
+    }
+}
