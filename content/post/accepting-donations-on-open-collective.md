@@ -11,8 +11,6 @@ featured: true
 coverImageStyle: full
 ---
 
-#### *HI HN!!!*
-
 <a href="https://opencollective.com/openemr" class="btn btn-lg btn-primary" style="text-decoration: none;"><i class="fa fa-heart"></i>Donate on OpenCollective</a>
 
 As the most popular open source electronic health records and medical practice management solution, our community has many ambitious goals to meet the needs of our global user base. Some of these requests involve activities such as adding new clinical forms, improving documentation, and crafting a cutting edge, FHIR-ready, real-time inpatient management module. I’ll let you guess which one requires the most energy, time, and domain expertise :).
