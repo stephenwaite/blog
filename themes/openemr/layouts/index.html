@@ -3,7 +3,7 @@
 {{ partial "navigation.html" . }}
 
 <div class="home-jumbo">
-    <img src="{{ .Site.BaseURL }}/img/homepage-logo.png" alt="">
+    <img src="{{ .Site.BaseURL }}img/homepage-logo.png" alt="">
 </div>
 
 <main id="post-index" class="body index-list" itemscope="" itemtype="https://schema.org/Blog">
@@ -12,7 +12,7 @@
             <ul class="post-list list-unstyled">
                 {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}{{ range $pag.Pages }} {{ partial "post-stub.html" . }} {{ end }}
             </ul>
-            
+
             <div class="post-navigation">
                 {{ partial "pagination.html" . }}
             </div>

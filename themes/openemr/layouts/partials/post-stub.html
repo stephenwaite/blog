@@ -1,6 +1,6 @@
 <li class="media post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
     {{ if .Params.coverImage }}
-        <img class="mr-3" src="{{ $.Params.coverImage }}" width="150" alt="Card image cap">
+        <img class="mr-3" src="{{ .Params.coverImage }}" width="150" alt="Card image cap">
     {{ else }}
         <div class="mr-3" style="width:150px">&nbsp;</div>
     {{ end }}
