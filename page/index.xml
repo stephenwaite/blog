@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on OpenEMR</title>
-    <link>https://www.openemr.blog/page/</link>
+    <link>https://openemr.github.io/blog/page/</link>
     <description>Recent content in Pages on OpenEMR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>OEMR</copyright>
     
-	<atom:link href="https://www.openemr.blog/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://openemr.github.io/blog/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://www.openemr.blog/page/contact/</link>
+      <link>https://openemr.github.io/blog/page/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.openemr.blog/page/contact/</guid>
+      <guid>https://openemr.github.io/blog/page/contact/</guid>
       <description>Contact Blog Administrator
 Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://www.openemr.blog/page/about/</link>
+      <link>https://openemr.github.io/blog/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.openemr.blog/page/about/</guid>
+      <guid>https://openemr.github.io/blog/page/about/</guid>
       <description>OpenEMR is the most popular open source electronic health records and medical practice management solution. ONC certified with international usage, OpenEMR&amp;rsquo;s goal is a superior alternative to its proprietary counterparts. With passionate volunteers and contributors dedicated to guarding OpenEMR&amp;rsquo;s status as a free, open source software solution for medical practices with a commitment to openness, kindness and cooperation.
 To stay connected, subscribe to the RSS feed of this blog posts, or follow us on Twitter @openemr.</description>
     </item>
