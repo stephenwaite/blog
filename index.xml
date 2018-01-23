@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenEMR</title>
+    <link>https://www.openemr.blog/</link>
+    <description>Recent content on OpenEMR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>OEMR</copyright>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.openemr.blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Embracing Docker</title>
+      <link>https://www.openemr.blog/post/embracing-docker/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/embracing-docker/</guid>
+      <description>“Developers get so excited over Docker,” said Matthew Vita, a software developer and project administrator for OpenEMR. “By building, testing, and deploying software in Docker containers, no one has to bother with manually installing and configuring complex system dependencies for their operating system. This is a great innovation for OpenEMR developers, testers, and the clinicians we serve.”
+OpenEMR, the world’s leading open-source EMR, has offered users various ways to install the platform since its conception in 2002.</description>
+    </item>
+    
+    <item>
+      <title>Accepting Donations on OpenCollective</title>
+      <link>https://www.openemr.blog/post/accepting-donations-on-opencollective/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/accepting-donations-on-opencollective/</guid>
+      <description>Donate on OpenCollective
+As the most popular open source electronic health records and medical practice management solution, our community has many ambitious goals to meet the needs of our global user base. Some of these requests involve activities such as adding new clinical forms, improving documentation, and crafting a cutting edge, FHIR-ready, real-time inpatient management module. I’ll let you guess which one requires the most energy, time, and domain expertise :).</description>
+    </item>
+    
+    <item>
+      <title>OpenEMR at WONCA SAR</title>
+      <link>https://www.openemr.blog/post/openemr-at-wonca-2017/</link>
+      <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/openemr-at-wonca-2017/</guid>
+      <description>Matthew Vita, a software developer and project administrator for OpenEMR and Dr. Andre Millet, a physician and medical officer for OpenEMR were pleased to present “Improving Outpatient and Inpatient Care with the OpenEMR Platform” at WONCA South Asia Region 2017.
+This Kathmandu, Nepal-based conference was primarily focused on General Practitioners (GP). Despite a developing status, Nepal is a leader in GP education and practice. General Practitioners Association of Nepal (GPAN) coordinated this successful conference along with World Organization of Family Doctors (WONCA) and WONCA South Asia Region (WONCA SAR).</description>
+    </item>
+    
+    <item>
+      <title>Hurricane Maria, Puerto Rico, and the success of OpenEMR customers</title>
+      <link>https://www.openemr.blog/post/hurricane-maria-puerto-rico-openemr-success/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/hurricane-maria-puerto-rico-openemr-success/</guid>
+      <description>Throughout both Hurricane Maria’s initial impact and the rebuilding efforts, Puerto Rico has suffered tremendous infrastructure damage leaving the majority of the islands some 3.4 million people without power, water, communications, and internet access. Despite these challenges, OpenEMR would prove to be vital at multiple healthcare facilities as the island begins the process of rebuilding.
+During and immediately following the hurricane’s devastating wind and rain, the following healthcare providers noted OpenEMR as an essential tool in receiving and assisting a large volume of patients:</description>
+    </item>
+    
+    <item>
+      <title>OpenEMR and the 2017 VCU HealthHacks</title>
+      <link>https://www.openemr.blog/post/healthhacks-at-vcu-2017/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/healthhacks-at-vcu-2017/</guid>
+      <description>OpenEMR is proud to be a contributing sponsor of the 2017 HealthHacks at VCU a 24-hour event at Virginia Commonwealth University involving engineering, medical, and computer science students coming together to problem solve and innovate on current unmet medical needs.
+&amp;ldquo;HealthHacks is a rapid-paced participatory event for students of all disciplines to engage with medical professionals in development and prototyping of solutions for unmet needs in patientcare. It is a very exciting 24-hour engagement event,&amp;rdquo; said L.</description>
+    </item>
+    
+    <item>
+      <title>OpenEMR Announces Initial Availability of OpenEMR Cloud on AWS</title>
+      <link>https://www.openemr.blog/post/openemr-announces-initial-availability-of-openemr-cloud-on-aws/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/openemr-announces-initial-availability-of-openemr-cloud-on-aws/</guid>
+      <description>Setup Guide CloudFormation Template
+OpenEMR Cloud Full Stack, a cloud service version of OpenEMR - the most popular open source electronic health record (EHR) and medical practice management solution, is available for the 5.0.0.5 release of OpenEMR. OpenEMR has joined with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR Cloud to healthcare provider practices and institutions throughout the world. In a few simple steps, healthcare providers can leverage the benefits of OpenEMR and AWS by deploying OpenEMR Cloud Full Stack.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.openemr.blog/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/page/contact/</guid>
+      <description>Contact Blog Administrator
+Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.openemr.blog/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/page/about/</guid>
+      <description>OpenEMR is the most popular open source electronic health records and medical practice management solution. ONC certified with international usage, OpenEMR&amp;rsquo;s goal is a superior alternative to its proprietary counterparts. With passionate volunteers and contributors dedicated to guarding OpenEMR&amp;rsquo;s status as a free, open source software solution for medical practices with a commitment to openness, kindness and cooperation.
+To stay connected, subscribe to the RSS feed of this blog posts, or follow us on Twitter @openemr.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on OpenEMR</title>
+    <link>https://www.openemr.blog/categories/cloud/</link>
+    <description>Recent content in Cloud on OpenEMR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>OEMR</copyright>
+    <lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.openemr.blog/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenEMR Announces Initial Availability of OpenEMR Cloud on AWS</title>
+      <link>https://www.openemr.blog/post/openemr-announces-initial-availability-of-openemr-cloud-on-aws/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/openemr-announces-initial-availability-of-openemr-cloud-on-aws/</guid>
+      <description>Setup Guide CloudFormation Template
+OpenEMR Cloud Full Stack, a cloud service version of OpenEMR - the most popular open source electronic health record (EHR) and medical practice management solution, is available for the 5.0.0.5 release of OpenEMR. OpenEMR has joined with industry leading Amazon Web Services (AWS) to implement and deliver OpenEMR Cloud to healthcare provider practices and institutions throughout the world. In a few simple steps, healthcare providers can leverage the benefits of OpenEMR and AWS by deploying OpenEMR Cloud Full Stack.</description>
+    </item>
+    
+  </channel>
+</rss>

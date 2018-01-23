@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" >
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Embracing Docker</title>
+    <meta name="description" content="“Developers get so excited over Docker,” said Matthew Vita, a software developer and project administrator for OpenEMR. “By building, testing, and deploying software in Docker containers, no one has to bother with manually installing and configuring complex system dependencies for their operating system. This is a great innovation for OpenEMR developers, testers, and the clinicians we serve.”
+OpenEMR, the world’s leading open-source EMR, has offered users various ways to install the platform since its conception in 2002.">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320"> <meta name="generator" content="Hugo 0.32.4" />
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="https://www.openemr.blog/images/embracing_docker_thumb.jpg">
+    <meta property="og:image" content="https://www.openemr.blog/images/embracing_docker_thumb.jpg">
+    <meta property="twitter:site" content="openemr">
+    <meta property="twitter:creator" content="@MatthewVita">
+    <meta property="fb:app_id" content="291996261297487">
+    <meta property="og:title" content="Embracing Docker">
+    <meta property="og:description" content="“Developers get so excited over Docker,” said Matthew Vita, a software developer and project administrator for OpenEMR. “By building, testing, and deploying software in Docker containers, no one has to bother with manually installing and configuring complex system dependencies for their operating system. This is a great innovation for OpenEMR developers, testers, and the clinicians we serve.”
+OpenEMR, the world’s leading open-source EMR, has offered users various ways to install the platform since its conception in 2002.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.openemr.blog/post/embracing-docker/">
+ 
+    <link rel="stylesheet" href="https://www.openemr.blog/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMO5ypXxXd">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=vMO5ypXxXd">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=vMO5ypXxXd">
+    <link rel="manifest" href="/manifest.json?v=vMO5ypXxXd">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMO5ypXxXd" color="#2d9bd6">
+    <link rel="shortcut icon" href="/favicon.ico?v=vMO5ypXxXd">
+    <meta name="apple-mobile-web-app-title" content="OpenEMR Blog">
+    <meta name="application-name" content="OpenEMR Blog">
+    <meta name="msapplication-TileColor" content="#2d9bd6">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=vMO5ypXxXd">
+    <meta name="theme-color" content="#2d9bd6">
+</head>
+
+<body>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-8316288-11', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+<nav class="main-header">
+  <div class="container">
+  
+  <a class="navbar-brand" href="https://www.openemr.blog/">
+<img alt="OpenEMR" height="35" src="https://www.openemr.blog/img/main-logo.svg">
+</a>
+
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<i class="fa fa-bars fa-inverse fa-lg">
+</i>
+</button>
+<div id="navbarSupportedContent">
+<ul>
+
+<li class="site-nav-item">
+<a href="/page/about/" title="About">
+About
+</a>
+</li>
+
+<li class="site-nav-item">
+<a href="https://chat.open-emr.org" title="Chat">
+Chat
+</a>
+</li>
+
+<li class="site-nav-item">
+<a href="https://community.open-emr.org" title="Community">
+Community
+</a>
+</li>
+
+<li class="site-nav-item">
+<a href="http://open-emr.org/wiki/" title="Docs">
+Docs
+</a>
+</li>
+
+<li class="site-nav-item">
+<a href="http://open-emr.org" title="open-emr.org">
+open-emr.org
+</a>
+</li>
+ 
+<li>
+<a class="nav-item" href="openemr">
+<i class="fa fa-twitter">
+</i>
+</a>
+</li>
+
+<li>
+<a class="button-square" href="https://www.openemr.blog/index.xml">
+<i class="fa fa-rss">
+</i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<main class="body single-post">
+    <article class="justify-content-center">
+        
+<div class="center-row cover" style="background-image: url('/images/embracing_docker_thumb.jpg');">
+    <header class="post-header">
+        <h1 class="post-title">Embracing Docker</h1>
+    </header>
+</div>
+
+
+        <div class="row justify-content-center">
+    <div class="post-meta">
+        Matthew Vita&nbsp;(<a href="https://twitter.com/MatthewVita" target="_blank">@MatthewVita)</a>
+        on Monday, Jan 22, 2018
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="post-content">
+        <p>“Developers get so excited over Docker,” said <a href="https://twitter.com/MatthewVita">Matthew Vita</a>, a software developer and project administrator for OpenEMR. “By building, testing, and deploying software in Docker containers, no one has to bother with manually installing and configuring complex system dependencies for their operating system. This is a great innovation for OpenEMR developers, testers, and the clinicians we serve.”</p>
+
+<p><a href="http://open-emr.org">OpenEMR</a>, the world’s leading open-source EMR, has offered users various ways to install the platform since its conception in 2002. Notable examples include <a href="http://www.open-emr.org/wiki/index.php/OpenEMR_Downloads">standard Apache</a> and <a href="http://www.open-emr.org/wiki/index.php/OpenEMR_Downloads#Appliance">virtual machine appliance</a> LAMP architecture for IT-minded folks, a <a href="http://www.open-emr.org/wiki/index.php/OpenEMR_Downloads#Windows:_Pre-installed_OpenEMR_with_the_XAMPP_Package">Windows-friendly XAMPP package</a>, and a <a href="http://www.open-emr.org/wiki/index.php/OpenEMR_Downloads#Ubuntu_.2F_Mint_.2F_Debian">Linux Debian package</a>. Our developers have made it a point to use the best packaging and deployment solutions available, but still found themselves answering emails and forum tickets around the management and troubleshooting of such tools.</p>
+
+<p>In mid-2017, a few developers in our community started to play around with <a href="https://hub.docker.com/r/openemr/openemr/">Docker</a> with varied success. The concept of Docker being “an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud” sounded too good to be true, but the entire technology industry seemed to be betting on it, so our experimentation continued. “After a few months of research and testing, our developers became very comfortable with spinning up the server, document store, and database with compose, pushing images to our hub, and supporting OpenEMR containers on the cloud.”, said Dr. Brady Miller, an OpenEMR project administrator and physician.</p>
+
+<p>“To really touch on how much this technology has made our lives easier, consider that all OpenEMR community demo and QA servers are running on the cloud in Docker containers. We can simply take an in-development feature and present it to our developers and clinicians for review with only a few commands”, said Jason Oettinger, an OpenEMR contributor and incoming medical student.</p>
+
+<p>While <a href="https://sourceforge.net/projects/openemr/">other install options are still available from SourceForge</a>, which are still downloaded 5,000 times per month, our community is encouraging <a href="https://hub.docker.com/r/openemr/openemr/">Docker</a> for new deployments, whether on-premise or using one of our freely-available cloud packages.</p>
+
+<p>OpenEMR remains in the midst of its Docker revolution with big plans for the future, including utilizing docker images to support medical record interoperability with Fast Healthcare Interoperability Resources FHIR (FHIR), patient data analytics with Shiny R, and patient imaging picture archiving and communication system (PACS) integration with an Orthanc Digital Imaging and Communications in Medicine (DICOM) server.</p>
+
+<p>Duc Tran contributed to this blog post.</p>
+
+    </div>
+</div>
+
+        <div class="row justify-content-center">
+    <footer class="post-footer">
+        
+
+        <div class="share">
+            
+            <a class="icon-twitter" href="https://twitter.com/share?text=Embracing%20Docker&url=https%3a%2f%2fwww.openemr.blog%2fpost%2fembracing-docker%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+             
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.openemr.blog%2fpost%2fembracing-docker%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+             
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fwww.openemr.blog%2fpost%2fembracing-docker%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+             
+            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=Embracing%20Docker&url=https%3a%2f%2fwww.openemr.blog%2fpost%2fembracing-docker%2f&summary="
+                onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;">
+                <i class="fa fa-linkedin"></i>
+                <span class="hidden">LinkedIn</span>
+            </a>
+            
+        </div>
+    </footer>
+</div>
+<div class="row justify-content-center">
+    <div id="disqus_thread" class="comments"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = "https:\/\/www.openemr.blog\/post\/embracing-docker\/";
+            this.page.identifier = "https:\/\/www.openemr.blog\/post\/embracing-docker\/";
+        };
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://openemrblog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+
+    </article>
+</main>
+
+<script id="dsq-count-scr" src="//openemrblog.disqus.com/count.js" async></script>
+<script src="https://www.openemr.blog/js/bundle.js"></script>
+

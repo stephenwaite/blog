@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on OpenEMR</title>
+    <link>https://www.openemr.blog/categories/events/</link>
+    <description>Recent content in Events on OpenEMR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>OEMR</copyright>
+    <lastBuildDate>Wed, 22 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.openemr.blog/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenEMR at WONCA SAR</title>
+      <link>https://www.openemr.blog/post/openemr-at-wonca-2017/</link>
+      <pubDate>Wed, 22 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.openemr.blog/post/openemr-at-wonca-2017/</guid>
+      <description>Matthew Vita, a software developer and project administrator for OpenEMR and Dr. Andre Millet, a physician and medical officer for OpenEMR were pleased to present “Improving Outpatient and Inpatient Care with the OpenEMR Platform” at WONCA South Asia Region 2017.
+This Kathmandu, Nepal-based conference was primarily focused on General Practitioners (GP). Despite a developing status, Nepal is a leader in GP education and practice. General Practitioners Association of Nepal (GPAN) coordinated this successful conference along with World Organization of Family Doctors (WONCA) and WONCA South Asia Region (WONCA SAR).</description>
+    </item>
+    
+  </channel>
+</rss>
